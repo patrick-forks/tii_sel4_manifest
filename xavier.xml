@@ -1,0 +1,11 @@
+<manifest>
+  <include name="default.xml"/>
+
+  <project remote="tiiuae" name="cboot.git" path="Linux_for_Tegra/cboot" revision="tii/sel4-development"/>
+
+  <extend-project name="tii_sel4_build.git"             remote="tiiuae" revision="tii/xaviernx"/>
+
+  <extend-project name="seL4.git"                       remote="tiiuae" revision="xaviernx"/>
+  <extend-project name="util_libs.git"                  remote="tiiuae" revision="xaviernx"/>
+  <extend-project name="seL4_tools.git"                 remote="tiiuae" revision="xaviernx"/>
+</manifest>
