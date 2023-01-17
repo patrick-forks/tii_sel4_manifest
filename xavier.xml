@@ -1,7 +1,7 @@
 <manifest>
   <include name="default.xml"/>
 
-  <project remote="tiiuae" name="cboot.git" path="Linux_for_Tegra/cboot" revision="tii/sel4-development"/>
+<!--   <project remote="tiiuae" name="cboot.git" path="Linux_for_Tegra/cboot" revision="tii/sel4-development"/> -->
 
   <extend-project name="tii_sel4_build.git"             remote="tiiuae" revision="tii/xaviernx"/>
 
